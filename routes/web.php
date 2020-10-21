@@ -8,7 +8,7 @@ Route::get('/', function () {
 
 Route::get('/awe', function () {
 
-    $names = array ('Tom', 'Dick', 'Harry');
+    $names = array ('Tom', 'Dick', 'Bill');
 
     return view ('awe', ['names' => $names]);
 
